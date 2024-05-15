@@ -43,6 +43,11 @@
     padding: 30px;
     
 }
+@media screen and (max-width: 800px) {
+    .main{
+        display: block;
+    }
+  }
 
 html{
     background-color: rgb(152, 112, 112);
