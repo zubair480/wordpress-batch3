@@ -41,10 +41,124 @@
 
 // Assignment Operators
 
-let num = 2;
-num = num + 5
-console.log(num)
+// let num = 2;
+// num += 5
+// console.log(num)
+
+// let box = 20; 
+// box = box + 10; 
+// box += 10; 
+
+// If else
+
+// let num = 2;
+
+// if (num == 10){
+//     console.log("num value is 10")
+// } else {
+//     console.log("num value is not 10")
+// }
 
 
 
+// let day = "Monday"
 
+// if (day == "Monday"){
+//     console.log("correct day")}
+
+// else if (day == "Tuesday"){
+//     console.log("wrong day")}
+
+// else if (day == "Wednesday"){
+//     console.log("wrong day")}
+
+// else if (day == "Thursday"){
+//     console.log("wrong day")}
+
+// else if (day == "Friday"){
+//     console.log("wrong day")}
+
+// else if (day == "Saturday"){
+//     console.log("wrong day")}
+
+// else {
+//     console.log("wrong day")}
+
+
+/// Switch Statment
+
+// let day = "Monday"
+
+// switch (day){
+//     case "Monday":
+//         console.log("correct day")
+//         break;
+//     case "Tuesday":
+//         console.log("wrong day")
+//         break;
+//     case "Wednesday":
+//         console.log("wrong day")
+//         break;
+//     case "Thursday":
+//         console.log("wrong day")
+//         break;
+//     case "Friday":
+//         console.log("wrong day")
+//         break;
+//     case "Saturday":
+//         console.log("wrong day")
+//         break;
+//     default:
+//         console.log("wrong day")
+//         break;
+// }
+
+// And Gate
+// let num = 5
+
+// if (num < 10 && num > 1){
+//     console.log("num value is between 1 and 10")
+// }
+// Or Gate
+// let num = 2
+// let num2 = 5
+
+// if (num == 5 || num2 == 5){
+//     console.log("one of the conditions is true")
+// }
+
+// Not gate
+
+// let num = 2
+// let num2 = 2
+
+// if (!(num == num2)){
+//     console.log("num and num2 values are equal")
+// }
+
+
+// For loop
+
+
+// console.log("Hello world 1")
+// console.log("Hello world 2")
+// console.log("Hello world 3")
+// console.log("Hello world 4")
+// console.log("Hello world 5")
+// console.log("Hello world 6")
+// console.log("Hello world 7")
+// console.log("Hello world 8")
+// console.log("Hello world 9")
+// console.log("Hello world 10")
+
+for(let i = 0; i < 10; i++){
+    console.log("Hello world")
+}
+// let i = 1;
+// i = i+1
+// i +=1
+// i++
+
+// starting point/variable
+// condition (ending point)
+// increment 
