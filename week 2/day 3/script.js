@@ -151,9 +151,9 @@
 // console.log("Hello world 9")
 // console.log("Hello world 10")
 
-for(let i = 0; i < 10; i++){
-    console.log("Hello world")
-}
+// for(let i = 0; i < 10; i++){
+//     console.log("Hello world")
+// }
 // let i = 1;
 // i = i+1
 // i +=1
@@ -162,3 +162,34 @@ for(let i = 0; i < 10; i++){
 // starting point/variable
 // condition (ending point)
 // increment 
+
+
+// While loop
+// let i = 0
+// while (i < 10) {
+//     text += "The number is " + i;
+//     i++;
+//   }
+
+  // condition
+  // Starting point
+  // increment
+
+  // Do while loop
+
+//   do {
+//     text += "The number is " + i;
+//     i++;
+//   }
+//   while (i < 10);
+
+
+// Arrays
+
+let car1 = "BMW"
+let car2 = "Mehran"
+let car3 = "Ferrari"
+
+let cars = ["BMW", "Mehran", "Ferrari"]
+
+console.log(cars)
