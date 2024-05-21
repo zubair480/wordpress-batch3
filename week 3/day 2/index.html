@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- <div id="demo">
+        <h1> This is a heading</h1>
+        <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, eaque!</p>
+    </div>
+    <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, eaque!</p> -->
+
+
+    <h2>JavaScript addEventListener()</h2>
+
+    <p>This example uses the addEventListener() method to attach a click event to a button.</p>
+
+    <button id="myBtn">Add to Cart</button>
+
+    <script>
+        let para = document.getElementById("para")
+    document.getElementById("myBtn").addEventListener("click", function() {
+    // alert("Item added successfully to cart");
+    para.innerHTML = "Item added successfully to cart";
+    });
+    </script>
+
+    <!-- addEventListener("when to perform it", "Function code to execute when event occurs") -->
+
+    <script>
+        // document.getElementById("demo").innerHTML = "<h1> This is a changed HTML </h1>"
+        // document.getElementsByTagName("p").innerHTML = "This is a changed HTML"
+        
+        // let paragraphs = document.getElementsByClassName("paragraph");
+        // for (let i = 0; i < paragraphs.length; i++) {
+        //     paragraphs[i].innerHTML = "This is a changed HTML";
+        // }
+
+        // let paragraphs = document.querySelectorAll(".paragraph")
+
+        // for (let i = 0; i < paragraphs.length; i++) {
+        //     paragraphs[i].style.color = "blue"
+        // }
+
+    </script>
+    <script src="/week 3/day 2/script.js"></script>
+</body>
+</html>
